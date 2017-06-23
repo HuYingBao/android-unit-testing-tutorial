@@ -5,7 +5,7 @@ import com.chriszou.auttutorial.async.RepoModel.RepoCallback;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.robolectric.RobolectricGradleTestRunner;
+import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
 
 import java.util.ArrayList;
@@ -27,7 +27,7 @@ import static junit.framework.Assert.fail;
 /**
  * Created by xiaochuang on 8/7/16.
  */
-@RunWith(RobolectricGradleTestRunner.class)
+@RunWith(RobolectricTestRunner.class)
 @Config(constants = BuildConfig.class, sdk = 21)
 public class RepoModelTest {
 
